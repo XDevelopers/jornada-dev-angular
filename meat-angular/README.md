@@ -159,11 +159,17 @@ Todas as imagens usadas na aplicação são pertencentes a freepik.com
 - Ajustes no Layout para Navegar entre componentes;
 - Ajustes no Roteamento para componentes filhos;
 - Foi visto PIPES;
-- 
+
 
 ## Alguns Comandos
 
+```
 ng g c menu --spec=false
+
 ng g c shopping-cart --spec=false
+
 ng g c menu-item --spec=false
+
 ng g c reviews --spec=false
+
+```
