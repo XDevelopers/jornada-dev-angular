@@ -144,3 +144,26 @@ Dependências dos pacotes que devem ficar em package.json:
 ## Créditos
 
 Todas as imagens usadas na aplicação são pertencentes a freepik.com
+
+## Udemy
+
+- 2018-07-24 18:20;
+- Está sendo feito o processo de carregamento Dinâmico dos Restaurantes;
+- Foi visto o conceito de injeção de Dependência;
+- Foi criado os Serviços que acessam o back-end;
+- Foi visto sobre Reactive Programming e Http;
+- Instalado o package 'json-server' para simular o back-end de uma aplicação;
+- Foi adicionado os Serviços Http;
+- Visto Tratamento de Erros com o Operador Catch;
+- Foram adicionados Parametros as Rotas;
+- Ajustes no Layout para Navegar entre componentes;
+- Ajustes no Roteamento para componentes filhos;
+- Foi visto PIPES;
+- 
+
+## Alguns Comandos
+
+ng g c menu --spec=false
+ng g c shopping-cart --spec=false
+ng g c menu-item --spec=false
+ng g c reviews --spec=false

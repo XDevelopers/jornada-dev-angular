@@ -16,6 +16,13 @@ export class RestaurantsService {
     restaurants(): Observable<IRestaurant[]> {
         return this.http.get(`${MEAT_API}/restaurants`)
         .map(response => response.json())
+        // validar quando backend não retornar dados
+        .catch(ErrorHandler.handlerError);
+    }
+
+    restaurantById(id: string): Observable<IRestaurant>{
+        return this.http.get(`${MEAT_API}/restaurants/${id}`)
+        .map(response => response.json())
         .catch(ErrorHandler.handlerError);
     }
 }

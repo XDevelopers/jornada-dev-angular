@@ -6,14 +6,22 @@ import { RouterModule } from '@angular/router';
 // routes
 import { ROUTES } from './app.routes';
 
+// components
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { RestaurantsComponent } from './restaurants/restaurants.component';
-import { RestaurantComponent } from './restaurants/restaurant/restaurant.component'
-import { RestaurantsService } from './restaurants/restaurants.service';
+import { RestaurantComponent } from './restaurants/restaurant/restaurant.component';
 import { RestaurantDetailComponent } from './restaurant-detail/restaurant-detail.component';
+import { MenuComponent } from './restaurant-detail/menu/menu.component';
+import { MenuItemComponent } from './restaurant-detail/menu-item/menu-item.component';
+import { ShoppingCartComponent } from './restaurant-detail/shopping-cart/shopping-cart.component';
+import { ReviewsComponent } from './restaurant-detail/reviews/reviews.component';
+
+// services
+import { RestaurantsService } from './restaurants/restaurants.service';
+
 
 
 @NgModule({
@@ -24,7 +32,11 @@ import { RestaurantDetailComponent } from './restaurant-detail/restaurant-detail
     AboutComponent,
     RestaurantsComponent,
     RestaurantComponent,
-    RestaurantDetailComponent
+    RestaurantDetailComponent,
+    MenuComponent,
+    ShoppingCartComponent,
+    MenuItemComponent,
+    ReviewsComponent
   ],
   imports: [
     BrowserModule,
