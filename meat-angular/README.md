@@ -161,6 +161,13 @@ Todas as imagens usadas na aplicação são pertencentes a freepik.com
 - Foi visto PIPES;
 
 
+- 2018-08-22 18:20;
+- Continação a partir da Implementando o Componente de Avaliações - Pipes Async e Date;
+- Executar o command  ` json-server db.json ` para subir a base de dados;
+- Foi visto - Implementando os Itens de Menu - Pipe Currency;
+-
+- Continuar a partir: Seção 5 - aula 52 - Implementando o Carrinho de Compras;
+
 ## Alguns Comandos
 
 ```
