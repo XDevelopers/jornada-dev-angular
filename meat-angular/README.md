@@ -168,6 +168,17 @@ Todas as imagens usadas na aplicação são pertencentes a freepik.com
 -
 - Continuar a partir: Seção 5 - aula 52 - Implementando o Carrinho de Compras;
 
+
+- 2018-08-23 - 18:00
+- Implementando o Carrinho de Compras;
+- Aplicando Eventos no Componente do Carrinho de Compras;
+- Localizando Preços para a Moeda Brasileira;
+
+- Continuar a partir: Seção 6 - Formulários e Componentes Personalizados
+
+
+
+
 ## Alguns Comandos
 
 ```
